@@ -4,7 +4,8 @@ This monorepo contains the core packages of the Verdaccio architechture.
 
 ## List of packages
 
-- eslint-config
+- [@verdaccio/eslint-config](packages/eslint-config)
+- [@verdaccio/babel-preset](packages/babel-preset)
 
 ## Contributing
 

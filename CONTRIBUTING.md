@@ -26,11 +26,11 @@ To start developing, you should perform some steps to prepare the packages:
 
 We follow [Conventional Commits Specification](https://conventionalcommits.org/) to generate changelogs automatically. Because every commit affects every package in the monorepo, we must specify the package folder in the scope field to generate each changelog correctly. Some examples of use is:
 ```shell
-feat([babel-preset-core]): add basic config
+feat(babel-preset): add basic config
 ```
 ```shell
-fix([eslint-config-core]): remove unnecessary comment
+fix(eslint-config): remove unnecessary comment
 ```
 ```shell
-chore([eslint-config-core]): update some deps
+chore(eslint-config): update some deps
 ```
