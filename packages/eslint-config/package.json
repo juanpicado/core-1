@@ -1,0 +1,8 @@
+{
+  "name": "@verdaccio/eslint-config",
+  "version": "0.0.0",
+  "description": "Eslint configs for Verdaccio projects",
+  "main": "index.js",
+  "author": "Sergio Herrera <sergio@sergiohgz.eu>",
+  "license": "MIT"
+}
