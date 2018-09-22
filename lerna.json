@@ -13,6 +13,6 @@
       "message": "chore(release): publish %s"
     }
   },
-  "registry": "https://registry.npmjs.org/",
+  "registry": "http://localhost:4873",
   "loglevel": "success"
 }
