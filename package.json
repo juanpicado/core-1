@@ -7,8 +7,8 @@
     "bootstrap": "lerna bootstrap",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "test": "lerna run test",
-    "lerna-publish": "lerna publish",
-    "lerna-canary": "lerna publish --canary --npm-tag next",
+    "lerna-publish": "lerna publish --npm-tag next",
+    "lerna-canary": "lerna publish --canary --npm-tag canary",
     "lerna-prepare": "lerna run prepare",
     "lerna-version": "lerna version --yes --progress"
   },
