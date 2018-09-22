@@ -54,7 +54,7 @@
     "flow": "flow",
     "build": "babel src/ --out-dir lib/ --copy-files --ignore __tests__",
     "precommit": "lint-staged",
-    "prepare": "npm run build",
+    "prepare": "npm run build"
   },
   "commitlint": {
     "extends": [
