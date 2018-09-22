@@ -45,9 +45,8 @@
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "coverage": "codecov",
-    "test": "jest .",
-    "lint": "npm run flow && npm run js-lint",
-    "js-lint": "eslint .",
+    "test": "npm run lint && jest .",
+    "lint": "npm run flow && eslint .",
     "flow": "flow",
     "build": "babel src/ --out-dir lib/ --copy-files --ignore __tests__",
     "precommit": "lint-staged",

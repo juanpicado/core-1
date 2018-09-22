@@ -6,7 +6,9 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "commitmsg": "commitlint -e $GIT_PARAMS",
+    "test": "lerna run test",
     "lerna-publish": "lerna publish",
+    "lerna-canary": "lerna publish --canary --npm-tag next",
     "lerna-prepare": "lerna run prepare",
     "lerna-version": "lerna version --yes --progress"
   },
