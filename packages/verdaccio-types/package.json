@@ -6,7 +6,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint .",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "format": "prettier --write",
     "release": "standard-version -a -s",
     "build": "mkdir -p lib && for f in $(find src/ -iname *.js | cut -c5-) ; do cp src/$f lib/$f.flow; done",
