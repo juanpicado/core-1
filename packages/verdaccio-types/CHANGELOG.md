@@ -15,6 +15,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+<a name="4.0.2"></a>
+## 4.0.2 (2018-09-22)
+
+
+### Features
+
+* add types project ([68c5f5a](https://github.com/juanpicado/core-1/commit/68c5f5a))
+
+
+
+
+
 <a name="4.0.1"></a>
 ## 4.0.1 (2018-09-22)
 
