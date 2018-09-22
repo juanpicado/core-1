@@ -5,7 +5,7 @@ import {PassThrough} from 'stream';
 import type {IUploadTarball, IReadTarball} from '@verdaccio/streams';
 
 /**
- * This stream is used to read tarballs from repository.
+ * This stream is used to read tarballs from repository..
  * @param {*} options
  * @return {Stream}
  */
