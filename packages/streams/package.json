@@ -44,9 +44,6 @@
       "git add"
     ]
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "keywords": [
     "streams",
     "verdaccio"

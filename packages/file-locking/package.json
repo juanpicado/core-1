@@ -35,9 +35,6 @@
     "lockfile": "1.0.4",
     "lodash": "4.17.10"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "lint-staged": {
     "*.{js, json}": [
       "npm run lint",
