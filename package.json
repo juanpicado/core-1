@@ -6,9 +6,9 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "publish": "lerna publish",
-    "prepare-lerna": "lerna run prepare",
-    "version": "lerna version --yes --progress"
+    "lerna-publish": "lerna publish",
+    "lerna-prepare": "lerna run prepare",
+    "lerna-version": "lerna version --yes --progress"
   },
   "devDependencies": {
     "@commitlint/cli": "7.0.0",
