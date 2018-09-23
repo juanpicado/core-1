@@ -1,6 +1,6 @@
 {
   "name": "@verdaccio/streams",
-  "version": "4.0.3",
+  "version": "4.0.0",
   "description": "helper to delay streams",
   "main": "lib/index.js",
   "scripts": {
