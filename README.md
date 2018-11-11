@@ -4,10 +4,11 @@ This monorepo contains the core packages of the Verdaccio architechture.
 
 ## List of packages
 
-- eslint-config
-- verdaccio-file-locking
-- verdaccio-streams
-- verdaccio-types
+- [@verdaccio/eslint-config](packages/eslint-config)
+- [@verdaccio/babel-preset](packages/babel-preset)
+- [@verdaccio/file-locking](packages/verdaccio-file-locking)
+- [@verdaccio/streams](packages/verdaccio-streams)
+- [@verdaccio/types](packages/verdaccio-types)
 
 ## Contributing
 
